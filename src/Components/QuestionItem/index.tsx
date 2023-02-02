@@ -15,7 +15,7 @@ export const QuestionItem = ( { option, select, rightColor }: Props ) => {
     const handleAnswer = () => {
         select(option);
         dispatch({      
-            
+
             type: QuizActions.setAnswerSelected
         })
     }

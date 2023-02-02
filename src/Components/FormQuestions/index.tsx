@@ -41,7 +41,7 @@ export const FormQuestions = () => {
             payload: {answer: currentQuestion.answer, option}
         })
     }
-    
+
     return (
         <C.Container>
             <h1>Quiz de Programação</h1>
