@@ -4,7 +4,7 @@ import * as C from './styles';
 type Props = {
     option: string,
     select: (option: string) => void,
-    rightColor: boolean
+    rightColor: string
 }
 
 export const QuestionItem = ( { option, select, rightColor }: Props ) => {

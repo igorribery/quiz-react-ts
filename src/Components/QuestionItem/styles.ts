@@ -7,10 +7,8 @@ export const Container = styled.div`
     color: #FFF;
 `;
 
-// só consegui typando com any
-
-export const QuestionOption = styled.div<{color: any}>`
-    background-color: ${props => props.color ? '#0BFC03; font-weight: bold; font-size: 20px;' : '#3C0E70'};
+export const QuestionOption = styled.div<{color: string}>`
+    background-color: ${props => props.color};
     color: #FFF;
     border: 1px solid #FFF;
     border-radius: 10px;

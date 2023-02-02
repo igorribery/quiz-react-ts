@@ -52,7 +52,7 @@ export const FormQuestions = () => {
             {currentQuestion.options.map((item) => (
                 <QuestionItem key={item} option={item}  
                 select={selectOption}
-                rightColor={currentQuestion.answer === item && state.answerSelected}
+                rightColor={currentQuestion.answer === item && state.answerSelected ? '#0BFC03; font-weight: bold; font-size: 20px;' : '#3C0E70'}
                 />
             ))}
             
